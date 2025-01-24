@@ -1,0 +1,7 @@
+{
+  "name": "naturaHub",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
