@@ -1,27 +1,12 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+ion-fab-button {
+  --background: #3880ff; /* Couleur du bouton */
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+#mire {
+  pointer-events: none; /* Permet de cliquer à travers la mire */
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+#map {
+  height: 100vh; /* Prend toute la hauteur de la vue */
+  width: 100vw; /* Prend toute la largeur de la vue */
 }
